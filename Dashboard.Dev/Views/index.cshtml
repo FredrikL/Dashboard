@@ -1,0 +1,33 @@
+﻿@model  Dashboard.Dev.Model
+<html>
+    <head>
+        <title>Dashboard</title>
+         <link rel="stylesheet" href='@Url.Content("~/Content/main.css")' type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- https://developers.google.com/google-apps/calendar/ -->
+            Google calendar, agenda + dagens datum
+        </div>
+        <div class="container">
+            Weather
+            Smhi, yr, dmi
+        </div>
+        <div class="container">
+            TODO / Reminders etc
+            rss feeds ?
+        </div>
+        <div class="container">
+            Tåg <br />
+            @foreach(var d in Model.Trains) {
+                @d.Time 
+                @d.Destination 
+                            <br/>
+                
+            }
+
+            Bussar (130 + 133)
+            
+        </div>
+    </body>
+</html>

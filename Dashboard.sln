@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard", "Dashboard\Dashboard.csproj", "{31FA4F77-F82B-458F-B446-7704B486DB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard.Dev", "Dashboard.Dev\Dashboard.Dev.csproj", "{A2C9B0B5-0198-494C-94F6-B3EB13BCD767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31FA4F77-F82B-458F-B446-7704B486DB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FA4F77-F82B-458F-B446-7704B486DB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FA4F77-F82B-458F-B446-7704B486DB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FA4F77-F82B-458F-B446-7704B486DB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C9B0B5-0198-494C-94F6-B3EB13BCD767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C9B0B5-0198-494C-94F6-B3EB13BCD767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C9B0B5-0198-494C-94F6-B3EB13BCD767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C9B0B5-0198-494C-94F6-B3EB13BCD767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

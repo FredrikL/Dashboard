@@ -1,0 +1,10 @@
+﻿body {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+div.container {
+    float:left;
+    width: 50%;
+    height: 50%;
+}
